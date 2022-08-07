@@ -1,0 +1,21 @@
+{
+  "name": "js_mediaplayer",
+  "version": "1.0.0",
+  "description": "JS extensible media player",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html ejercicios/**/*.html"
+  },
+  "keywords": [
+    "mediaplayer"
+  ],
+  "author": "Bárbaro Javier Valmaseda",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@bjvalmaseda/mediaplayer": "^1.0.0"
+  }
+}
